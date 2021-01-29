@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4AAE71425C4491000F830BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAE71325C4491000F830BB /* AppDelegate.swift */; };
+		F4AAE71625C4491000F830BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAE71525C4491000F830BB /* SceneDelegate.swift */; };
+		F4AAE71825C4491000F830BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAE71725C4491000F830BB /* ViewController.swift */; };
+		F4AAE71B25C4491000F830BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AAE71925C4491000F830BB /* Main.storyboard */; };
+		F4AAE71E25C4491000F830BB /* EPersonnelAssistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4AAE71C25C4491000F830BB /* EPersonnelAssistant.xcdatamodeld */; };
+		F4AAE72025C4491500F830BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AAE71F25C4491500F830BB /* Assets.xcassets */; };
+		F4AAE72325C4491500F830BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AAE72125C4491500F830BB /* LaunchScreen.storyboard */; };
+		F4AAE72E25C4491500F830BB /* EPersonnelAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAE72D25C4491500F830BB /* EPersonnelAssistantTests.swift */; };
+		F4AAE73925C4491500F830BB /* EPersonnelAssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAE73825C4491500F830BB /* EPersonnelAssistantUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4AAE72A25C4491500F830BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4AAE70825C4491000F830BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4AAE70F25C4491000F830BB;
+			remoteInfo = EPersonnelAssistant;
+		};
+		F4AAE73525C4491500F830BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4AAE70825C4491000F830BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4AAE70F25C4491000F830BB;
+			remoteInfo = EPersonnelAssistant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4AAE71025C4491000F830BB /* EPersonnelAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPersonnelAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4AAE71325C4491000F830BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4AAE71525C4491000F830BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F4AAE71725C4491000F830BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4AAE71A25C4491000F830BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4AAE71D25C4491000F830BB /* EPersonnelAssistant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EPersonnelAssistant.xcdatamodel; sourceTree = "<group>"; };
+		F4AAE71F25C4491500F830BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4AAE72225C4491500F830BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4AAE72425C4491500F830BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4AAE72925C4491500F830BB /* EPersonnelAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPersonnelAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4AAE72D25C4491500F830BB /* EPersonnelAssistantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPersonnelAssistantTests.swift; sourceTree = "<group>"; };
+		F4AAE72F25C4491500F830BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4AAE73425C4491500F830BB /* EPersonnelAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPersonnelAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4AAE73825C4491500F830BB /* EPersonnelAssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPersonnelAssistantUITests.swift; sourceTree = "<group>"; };
+		F4AAE73A25C4491500F830BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4AAE70D25C4491000F830BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AAE72625C4491500F830BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AAE73125C4491500F830BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4AAE70725C4491000F830BB = {
+			isa = PBXGroup;
+			children = (
+				F4AAE71225C4491000F830BB /* EPersonnelAssistant */,
+				F4AAE72C25C4491500F830BB /* EPersonnelAssistantTests */,
+				F4AAE73725C4491500F830BB /* EPersonnelAssistantUITests */,
+				F4AAE71125C4491000F830BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4AAE71125C4491000F830BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4AAE71025C4491000F830BB /* EPersonnelAssistant.app */,
+				F4AAE72925C4491500F830BB /* EPersonnelAssistantTests.xctest */,
+				F4AAE73425C4491500F830BB /* EPersonnelAssistantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4AAE71225C4491000F830BB /* EPersonnelAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				F4AAE71325C4491000F830BB /* AppDelegate.swift */,
+				F4AAE71525C4491000F830BB /* SceneDelegate.swift */,
+				F4AAE71725C4491000F830BB /* ViewController.swift */,
+				F4AAE71925C4491000F830BB /* Main.storyboard */,
+				F4AAE71F25C4491500F830BB /* Assets.xcassets */,
+				F4AAE72125C4491500F830BB /* LaunchScreen.storyboard */,
+				F4AAE72425C4491500F830BB /* Info.plist */,
+				F4AAE71C25C4491000F830BB /* EPersonnelAssistant.xcdatamodeld */,
+			);
+			path = EPersonnelAssistant;
+			sourceTree = "<group>";
+		};
+		F4AAE72C25C4491500F830BB /* EPersonnelAssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4AAE72D25C4491500F830BB /* EPersonnelAssistantTests.swift */,
+				F4AAE72F25C4491500F830BB /* Info.plist */,
+			);
+			path = EPersonnelAssistantTests;
+			sourceTree = "<group>";
+		};
+		F4AAE73725C4491500F830BB /* EPersonnelAssistantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4AAE73825C4491500F830BB /* EPersonnelAssistantUITests.swift */,
+				F4AAE73A25C4491500F830BB /* Info.plist */,
+			);
+			path = EPersonnelAssistantUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4AAE70F25C4491000F830BB /* EPersonnelAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4AAE73D25C4491500F830BB /* Build configuration list for PBXNativeTarget "EPersonnelAssistant" */;
+			buildPhases = (
+				F4AAE70C25C4491000F830BB /* Sources */,
+				F4AAE70D25C4491000F830BB /* Frameworks */,
+				F4AAE70E25C4491000F830BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EPersonnelAssistant;
+			productName = EPersonnelAssistant;
+			productReference = F4AAE71025C4491000F830BB /* EPersonnelAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4AAE72825C4491500F830BB /* EPersonnelAssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4AAE74025C4491500F830BB /* Build configuration list for PBXNativeTarget "EPersonnelAssistantTests" */;
+			buildPhases = (
+				F4AAE72525C4491500F830BB /* Sources */,
+				F4AAE72625C4491500F830BB /* Frameworks */,
+				F4AAE72725C4491500F830BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4AAE72B25C4491500F830BB /* PBXTargetDependency */,
+			);
+			name = EPersonnelAssistantTests;
+			productName = EPersonnelAssistantTests;
+			productReference = F4AAE72925C4491500F830BB /* EPersonnelAssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4AAE73325C4491500F830BB /* EPersonnelAssistantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4AAE74325C4491500F830BB /* Build configuration list for PBXNativeTarget "EPersonnelAssistantUITests" */;
+			buildPhases = (
+				F4AAE73025C4491500F830BB /* Sources */,
+				F4AAE73125C4491500F830BB /* Frameworks */,
+				F4AAE73225C4491500F830BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4AAE73625C4491500F830BB /* PBXTargetDependency */,
+			);
+			name = EPersonnelAssistantUITests;
+			productName = EPersonnelAssistantUITests;
+			productReference = F4AAE73425C4491500F830BB /* EPersonnelAssistantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4AAE70825C4491000F830BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F4AAE70F25C4491000F830BB = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					F4AAE72825C4491500F830BB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F4AAE70F25C4491000F830BB;
+					};
+					F4AAE73325C4491500F830BB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F4AAE70F25C4491000F830BB;
+					};
+				};
+			};
+			buildConfigurationList = F4AAE70B25C4491000F830BB /* Build configuration list for PBXProject "EPersonnelAssistant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4AAE70725C4491000F830BB;
+			productRefGroup = F4AAE71125C4491000F830BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4AAE70F25C4491000F830BB /* EPersonnelAssistant */,
+				F4AAE72825C4491500F830BB /* EPersonnelAssistantTests */,
+				F4AAE73325C4491500F830BB /* EPersonnelAssistantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4AAE70E25C4491000F830BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AAE72325C4491500F830BB /* LaunchScreen.storyboard in Resources */,
+				F4AAE72025C4491500F830BB /* Assets.xcassets in Resources */,
+				F4AAE71B25C4491000F830BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AAE72725C4491500F830BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AAE73225C4491500F830BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4AAE70C25C4491000F830BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AAE71825C4491000F830BB /* ViewController.swift in Sources */,
+				F4AAE71425C4491000F830BB /* AppDelegate.swift in Sources */,
+				F4AAE71E25C4491000F830BB /* EPersonnelAssistant.xcdatamodeld in Sources */,
+				F4AAE71625C4491000F830BB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AAE72525C4491500F830BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AAE72E25C4491500F830BB /* EPersonnelAssistantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AAE73025C4491500F830BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AAE73925C4491500F830BB /* EPersonnelAssistantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4AAE72B25C4491500F830BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4AAE70F25C4491000F830BB /* EPersonnelAssistant */;
+			targetProxy = F4AAE72A25C4491500F830BB /* PBXContainerItemProxy */;
+		};
+		F4AAE73625C4491500F830BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4AAE70F25C4491000F830BB /* EPersonnelAssistant */;
+			targetProxy = F4AAE73525C4491500F830BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4AAE71925C4491000F830BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4AAE71A25C4491000F830BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4AAE72125C4491500F830BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4AAE72225C4491500F830BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4AAE73B25C4491500F830BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4AAE73C25C4491500F830BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4AAE73E25C4491500F830BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGC4NW33H6;
+				INFOPLIST_FILE = EPersonnelAssistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.S10House.EPersonnelAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4AAE73F25C4491500F830BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGC4NW33H6;
+				INFOPLIST_FILE = EPersonnelAssistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.S10House.EPersonnelAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4AAE74125C4491500F830BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGC4NW33H6;
+				INFOPLIST_FILE = EPersonnelAssistantTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.S10House.EPersonnelAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPersonnelAssistant.app/EPersonnelAssistant";
+			};
+			name = Debug;
+		};
+		F4AAE74225C4491500F830BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGC4NW33H6;
+				INFOPLIST_FILE = EPersonnelAssistantTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.S10House.EPersonnelAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPersonnelAssistant.app/EPersonnelAssistant";
+			};
+			name = Release;
+		};
+		F4AAE74425C4491500F830BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGC4NW33H6;
+				INFOPLIST_FILE = EPersonnelAssistantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.S10House.EPersonnelAssistantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EPersonnelAssistant;
+			};
+			name = Debug;
+		};
+		F4AAE74525C4491500F830BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGC4NW33H6;
+				INFOPLIST_FILE = EPersonnelAssistantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.S10House.EPersonnelAssistantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EPersonnelAssistant;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4AAE70B25C4491000F830BB /* Build configuration list for PBXProject "EPersonnelAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AAE73B25C4491500F830BB /* Debug */,
+				F4AAE73C25C4491500F830BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4AAE73D25C4491500F830BB /* Build configuration list for PBXNativeTarget "EPersonnelAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AAE73E25C4491500F830BB /* Debug */,
+				F4AAE73F25C4491500F830BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4AAE74025C4491500F830BB /* Build configuration list for PBXNativeTarget "EPersonnelAssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AAE74125C4491500F830BB /* Debug */,
+				F4AAE74225C4491500F830BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4AAE74325C4491500F830BB /* Build configuration list for PBXNativeTarget "EPersonnelAssistantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AAE74425C4491500F830BB /* Debug */,
+				F4AAE74525C4491500F830BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F4AAE71C25C4491000F830BB /* EPersonnelAssistant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F4AAE71D25C4491000F830BB /* EPersonnelAssistant.xcdatamodel */,
+			);
+			currentVersion = F4AAE71D25C4491000F830BB /* EPersonnelAssistant.xcdatamodel */;
+			path = EPersonnelAssistant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F4AAE70825C4491000F830BB /* Project object */;
+}
