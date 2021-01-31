@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F4AAE71425C4491000F830BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAE71325C4491000F830BB /* AppDelegate.swift */; };
-		F4AAE71625C4491000F830BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAE71525C4491000F830BB /* SceneDelegate.swift */; };
 		F4AAE71825C4491000F830BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAE71725C4491000F830BB /* ViewController.swift */; };
-		F4AAE71B25C4491000F830BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AAE71925C4491000F830BB /* Main.storyboard */; };
 		F4AAE71E25C4491000F830BB /* EPersonnelAssistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4AAE71C25C4491000F830BB /* EPersonnelAssistant.xcdatamodeld */; };
 		F4AAE72025C4491500F830BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AAE71F25C4491500F830BB /* Assets.xcassets */; };
 		F4AAE72325C4491500F830BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AAE72125C4491500F830BB /* LaunchScreen.storyboard */; };
 		F4AAE72E25C4491500F830BB /* EPersonnelAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAE72D25C4491500F830BB /* EPersonnelAssistantTests.swift */; };
 		F4AAE73925C4491500F830BB /* EPersonnelAssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAE73825C4491500F830BB /* EPersonnelAssistantUITests.swift */; };
+		F4AAE75A25C44A9900F830BB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAE75925C44A9900F830BB /* Extension.swift */; };
+		F4AAE75B25C44A9900F830BB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAE75925C44A9900F830BB /* Extension.swift */; };
+		F4AAE75C25C44A9900F830BB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAE75925C44A9900F830BB /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +39,7 @@
 /* Begin PBXFileReference section */
 		F4AAE71025C4491000F830BB /* EPersonnelAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPersonnelAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4AAE71325C4491000F830BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4AAE71525C4491000F830BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F4AAE71725C4491000F830BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F4AAE71A25C4491000F830BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4AAE71D25C4491000F830BB /* EPersonnelAssistant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EPersonnelAssistant.xcdatamodel; sourceTree = "<group>"; };
 		F4AAE71F25C4491500F830BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4AAE72225C4491500F830BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		F4AAE73425C4491500F830BB /* EPersonnelAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPersonnelAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4AAE73825C4491500F830BB /* EPersonnelAssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPersonnelAssistantUITests.swift; sourceTree = "<group>"; };
 		F4AAE73A25C4491500F830BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4AAE75925C44A9900F830BB /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				F4AAE71325C4491000F830BB /* AppDelegate.swift */,
-				F4AAE71525C4491000F830BB /* SceneDelegate.swift */,
 				F4AAE71725C4491000F830BB /* ViewController.swift */,
-				F4AAE71925C4491000F830BB /* Main.storyboard */,
 				F4AAE71F25C4491500F830BB /* Assets.xcassets */,
 				F4AAE72125C4491500F830BB /* LaunchScreen.storyboard */,
 				F4AAE72425C4491500F830BB /* Info.plist */,
 				F4AAE71C25C4491000F830BB /* EPersonnelAssistant.xcdatamodeld */,
+				F4AAE75925C44A9900F830BB /* Extension.swift */,
 			);
 			path = EPersonnelAssistant;
 			sourceTree = "<group>";
@@ -236,7 +235,6 @@
 			files = (
 				F4AAE72325C4491500F830BB /* LaunchScreen.storyboard in Resources */,
 				F4AAE72025C4491500F830BB /* Assets.xcassets in Resources */,
-				F4AAE71B25C4491000F830BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +262,7 @@
 				F4AAE71825C4491000F830BB /* ViewController.swift in Sources */,
 				F4AAE71425C4491000F830BB /* AppDelegate.swift in Sources */,
 				F4AAE71E25C4491000F830BB /* EPersonnelAssistant.xcdatamodeld in Sources */,
-				F4AAE71625C4491000F830BB /* SceneDelegate.swift in Sources */,
+				F4AAE75A25C44A9900F830BB /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4AAE72E25C4491500F830BB /* EPersonnelAssistantTests.swift in Sources */,
+				F4AAE75B25C44A9900F830BB /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4AAE73925C4491500F830BB /* EPersonnelAssistantUITests.swift in Sources */,
+				F4AAE75C25C44A9900F830BB /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +300,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F4AAE71925C4491000F830BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4AAE71A25C4491000F830BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F4AAE72125C4491500F830BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
