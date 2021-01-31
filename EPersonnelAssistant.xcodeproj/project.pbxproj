@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3ECE6A7EF6F4DD4812A11468 /* Pods_EPersonnelAssistantTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54379282FF4713D1C03C1DD /* Pods_EPersonnelAssistantTests.framework */; };
+		74451436ED696CE6EEDE0071 /* Pods_EPersonnelAssistant_EPersonnelAssistantUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CD4F3E4F67C8E6EDCC2231 /* Pods_EPersonnelAssistant_EPersonnelAssistantUITests.framework */; };
+		E6F7712D7112C51162A4130F /* Pods_EPersonnelAssistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3932D32398E354CD3173CB81 /* Pods_EPersonnelAssistant.framework */; };
+		F45870DD25C6EE6F009A69E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F45870DC25C6EE6F009A69E5 /* GoogleService-Info.plist */; };
+		F45870DE25C6EE6F009A69E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F45870DC25C6EE6F009A69E5 /* GoogleService-Info.plist */; };
+		F45870DF25C6EE6F009A69E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F45870DC25C6EE6F009A69E5 /* GoogleService-Info.plist */; };
 		F4AAE71425C4491000F830BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAE71325C4491000F830BB /* AppDelegate.swift */; };
 		F4AAE71825C4491000F830BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAE71725C4491000F830BB /* ViewController.swift */; };
 		F4AAE71E25C4491000F830BB /* EPersonnelAssistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4AAE71C25C4491000F830BB /* EPersonnelAssistant.xcdatamodeld */; };
@@ -37,6 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B3E8C90724C1ACFC26F011C /* Pods-EPersonnelAssistantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPersonnelAssistantTests.debug.xcconfig"; path = "Target Support Files/Pods-EPersonnelAssistantTests/Pods-EPersonnelAssistantTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3932D32398E354CD3173CB81 /* Pods_EPersonnelAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EPersonnelAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A1AA367803E75CCC56A16E /* Pods-EPersonnelAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPersonnelAssistant.debug.xcconfig"; path = "Target Support Files/Pods-EPersonnelAssistant/Pods-EPersonnelAssistant.debug.xcconfig"; sourceTree = "<group>"; };
+		4FD362C211155349A6AB9FAB /* Pods-EPersonnelAssistant-EPersonnelAssistantUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPersonnelAssistant-EPersonnelAssistantUITests.release.xcconfig"; path = "Target Support Files/Pods-EPersonnelAssistant-EPersonnelAssistantUITests/Pods-EPersonnelAssistant-EPersonnelAssistantUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6438C1F15D74DB75A69A461F /* Pods-EPersonnelAssistantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPersonnelAssistantTests.release.xcconfig"; path = "Target Support Files/Pods-EPersonnelAssistantTests/Pods-EPersonnelAssistantTests.release.xcconfig"; sourceTree = "<group>"; };
+		93CD4F3E4F67C8E6EDCC2231 /* Pods_EPersonnelAssistant_EPersonnelAssistantUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EPersonnelAssistant_EPersonnelAssistantUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54379282FF4713D1C03C1DD /* Pods_EPersonnelAssistantTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EPersonnelAssistantTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EB5D9A9ADA4B9F498DE80B /* Pods-EPersonnelAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPersonnelAssistant.release.xcconfig"; path = "Target Support Files/Pods-EPersonnelAssistant/Pods-EPersonnelAssistant.release.xcconfig"; sourceTree = "<group>"; };
+		E37054B7A58F1F60409894FC /* Pods-EPersonnelAssistant-EPersonnelAssistantUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPersonnelAssistant-EPersonnelAssistantUITests.debug.xcconfig"; path = "Target Support Files/Pods-EPersonnelAssistant-EPersonnelAssistantUITests/Pods-EPersonnelAssistant-EPersonnelAssistantUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F45870DC25C6EE6F009A69E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F4AAE71025C4491000F830BB /* EPersonnelAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPersonnelAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4AAE71325C4491000F830BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4AAE71725C4491000F830BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6F7712D7112C51162A4130F /* Pods_EPersonnelAssistant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ECE6A7EF6F4DD4812A11468 /* Pods_EPersonnelAssistantTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +90,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74451436ED696CE6EEDE0071 /* Pods_EPersonnelAssistant_EPersonnelAssistantUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CCCE5E79CD004F960822A9D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47A1AA367803E75CCC56A16E /* Pods-EPersonnelAssistant.debug.xcconfig */,
+				C7EB5D9A9ADA4B9F498DE80B /* Pods-EPersonnelAssistant.release.xcconfig */,
+				E37054B7A58F1F60409894FC /* Pods-EPersonnelAssistant-EPersonnelAssistantUITests.debug.xcconfig */,
+				4FD362C211155349A6AB9FAB /* Pods-EPersonnelAssistant-EPersonnelAssistantUITests.release.xcconfig */,
+				2B3E8C90724C1ACFC26F011C /* Pods-EPersonnelAssistantTests.debug.xcconfig */,
+				6438C1F15D74DB75A69A461F /* Pods-EPersonnelAssistantTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3B6C3C727135D0A34A08916 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3932D32398E354CD3173CB81 /* Pods_EPersonnelAssistant.framework */,
+				93CD4F3E4F67C8E6EDCC2231 /* Pods_EPersonnelAssistant_EPersonnelAssistantUITests.framework */,
+				C54379282FF4713D1C03C1DD /* Pods_EPersonnelAssistantTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F4AAE70725C4491000F830BB = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +128,8 @@
 				F4AAE72C25C4491500F830BB /* EPersonnelAssistantTests */,
 				F4AAE73725C4491500F830BB /* EPersonnelAssistantUITests */,
 				F4AAE71125C4491000F830BB /* Products */,
+				CCCE5E79CD004F960822A9D7 /* Pods */,
+				D3B6C3C727135D0A34A08916 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +151,7 @@
 				F4AAE71F25C4491500F830BB /* Assets.xcassets */,
 				F4AAE72125C4491500F830BB /* LaunchScreen.storyboard */,
 				F4AAE72425C4491500F830BB /* Info.plist */,
+				F45870DC25C6EE6F009A69E5 /* GoogleService-Info.plist */,
 				F4AAE71C25C4491000F830BB /* EPersonnelAssistant.xcdatamodeld */,
 				F4AAE75925C44A9900F830BB /* Extension.swift */,
 			);
@@ -137,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4AAE73D25C4491500F830BB /* Build configuration list for PBXNativeTarget "EPersonnelAssistant" */;
 			buildPhases = (
+				41A53C9B7C99953A0E5487EA /* [CP] Check Pods Manifest.lock */,
 				F4AAE70C25C4491000F830BB /* Sources */,
 				F4AAE70D25C4491000F830BB /* Frameworks */,
 				F4AAE70E25C4491000F830BB /* Resources */,
+				4D92354DA12E10969DB3036C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4AAE74025C4491500F830BB /* Build configuration list for PBXNativeTarget "EPersonnelAssistantTests" */;
 			buildPhases = (
+				2844D862ED8258AF5B15940D /* [CP] Check Pods Manifest.lock */,
 				F4AAE72525C4491500F830BB /* Sources */,
 				F4AAE72625C4491500F830BB /* Frameworks */,
 				F4AAE72725C4491500F830BB /* Resources */,
@@ -172,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4AAE74325C4491500F830BB /* Build configuration list for PBXNativeTarget "EPersonnelAssistantUITests" */;
 			buildPhases = (
+				2360D9AE989DFD979B6DB477 /* [CP] Check Pods Manifest.lock */,
 				F4AAE73025C4491500F830BB /* Sources */,
 				F4AAE73125C4491500F830BB /* Frameworks */,
 				F4AAE73225C4491500F830BB /* Resources */,
+				1979B0D3571F74B130933F2D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +286,7 @@
 			files = (
 				F4AAE72325C4491500F830BB /* LaunchScreen.storyboard in Resources */,
 				F4AAE72025C4491500F830BB /* Assets.xcassets in Resources */,
+				F45870DD25C6EE6F009A69E5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45870DE25C6EE6F009A69E5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +302,114 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45870DF25C6EE6F009A69E5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1979B0D3571F74B130933F2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EPersonnelAssistant-EPersonnelAssistantUITests/Pods-EPersonnelAssistant-EPersonnelAssistantUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EPersonnelAssistant-EPersonnelAssistantUITests/Pods-EPersonnelAssistant-EPersonnelAssistantUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EPersonnelAssistant-EPersonnelAssistantUITests/Pods-EPersonnelAssistant-EPersonnelAssistantUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2360D9AE989DFD979B6DB477 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EPersonnelAssistant-EPersonnelAssistantUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2844D862ED8258AF5B15940D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EPersonnelAssistantTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41A53C9B7C99953A0E5487EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EPersonnelAssistant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D92354DA12E10969DB3036C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EPersonnelAssistant/Pods-EPersonnelAssistant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EPersonnelAssistant/Pods-EPersonnelAssistant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EPersonnelAssistant/Pods-EPersonnelAssistant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F4AAE70C25C4491000F830BB /* Sources */ = {
@@ -429,6 +586,7 @@
 		};
 		F4AAE73E25C4491500F830BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A1AA367803E75CCC56A16E /* Pods-EPersonnelAssistant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +606,7 @@
 		};
 		F4AAE73F25C4491500F830BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7EB5D9A9ADA4B9F498DE80B /* Pods-EPersonnelAssistant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,6 +626,7 @@
 		};
 		F4AAE74125C4491500F830BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B3E8C90724C1ACFC26F011C /* Pods-EPersonnelAssistantTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +649,7 @@
 		};
 		F4AAE74225C4491500F830BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6438C1F15D74DB75A69A461F /* Pods-EPersonnelAssistantTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +672,7 @@
 		};
 		F4AAE74425C4491500F830BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E37054B7A58F1F60409894FC /* Pods-EPersonnelAssistant-EPersonnelAssistantUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +693,7 @@
 		};
 		F4AAE74525C4491500F830BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FD362C211155349A6AB9FAB /* Pods-EPersonnelAssistant-EPersonnelAssistantUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

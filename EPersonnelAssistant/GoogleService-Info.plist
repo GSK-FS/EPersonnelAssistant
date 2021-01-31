@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>667849452970-9723n0hbdag7vgqecpmh4itn2nuaq7si.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.667849452970-9723n0hbdag7vgqecpmh4itn2nuaq7si</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB-0c-xwwhlI2dyP5vfs0nZgyMoNWIyDSQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>667849452970</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.S10House.EPersonnelAssistant</string>
+	<key>PROJECT_ID</key>
+	<string>personnelassistant-hr</string>
+	<key>STORAGE_BUCKET</key>
+	<string>personnelassistant-hr.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:667849452970:ios:7b353a235e8f4e905d4fd3</string>
+</dict>
+</plist>
