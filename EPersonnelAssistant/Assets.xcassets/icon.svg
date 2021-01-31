@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Icon" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#8d8d8d;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px}
+        </style>
+    </defs>
+    <path id="Path_2071" fill="none" d="M0 0h24v24H0z"/>
+    <g id="Group_409" transform="translate(3 5)">
+        <g id="email_icon">
+            <path id="Path_2072" d="M3 7l9 6 9-6" class="cls-2" transform="translate(-3 -5)"/>
+            <rect id="Rectangle_55" width="18" height="14" class="cls-2" rx="2"/>
+        </g>
+    </g>
+</svg>

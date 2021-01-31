@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_EPersonnelAssistant_EPersonnelAssistantUITests : NSObject
+@end
+@implementation PodsDummy_Pods_EPersonnelAssistant_EPersonnelAssistantUITests
+@end

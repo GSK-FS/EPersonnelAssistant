@@ -1,0 +1,6 @@
+framework module Pods_EPersonnelAssistant {
+  umbrella header "Pods-EPersonnelAssistant-umbrella.h"
+
+  export *
+  module * { export * }
+}
