@@ -1,0 +1,9 @@
+<svg id="home_24_icon" data-name="home 24 icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="Path_2125" data-name="Path 2125" d="M0,0H24V24H0Z" fill="#fff" opacity="0"/>
+  <g id="Group_127" data-name="Group 127">
+    <path id="Path_2111" data-name="Path 2111" d="M0,0H24V24H0Z" fill="none"/>
+    <path id="Path_2112" data-name="Path 2112" d="M4.984,12.21H3L11.93,3l8.93,9.21H18.876" transform="translate(0.07 0.07)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_2113" data-name="Path 2113" d="M5,12v7.163A2.008,2.008,0,0,0,6.967,21.21H16.8a2.008,2.008,0,0,0,1.967-2.047V12" transform="translate(0.117 -0.28)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_2114" data-name="Path 2114" d="M9,21.186v-6.14A2.047,2.047,0,0,1,11.047,13h2.047a2.047,2.047,0,0,1,2.047,2.047v6.14" transform="translate(-0.07 -0.256)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

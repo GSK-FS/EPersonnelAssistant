@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Announcement_Icon" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-3{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;stroke:#9c27b0}
+        </style>
+    </defs>
+    <path id="Rectangle_1602" fill="#fff" d="M0 0H32V32H0z" opacity="0.34"/>
+    <g id="mic_1_" transform="translate(5 4)">
+        <path id="Path_5659" fill="none" stroke="#f05a28" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px" d="M11.733 1A2.733 2.733 0 0 0 9 3.733v7.289a2.733 2.733 0 0 0 5.466 0V3.733A2.733 2.733 0 0 0 11.733 1z" transform="translate(-.233)"/>
+        <path id="Path_5660" d="M18 10v1.822a6.44 6.44 0 0 1-6.5 6.378A6.44 6.44 0 0 1 5 11.822V10" class="cls-3" transform="translate(0 .282)"/>
+        <path id="Line_84" d="M0 0L0 4.078" class="cls-3" transform="translate(11.65 18.922)"/>
+        <path id="Line_85" d="M0 0L7.586 0" class="cls-3" transform="translate(7.447 23)"/>
+    </g>
+</svg>

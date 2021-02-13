@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="CHECK_OUT_20_ICON" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;stroke:#f05a28}
+        </style>
+    </defs>
+    <g id="Group_22322" transform="translate(-2505.5 -1725.5)">
+        <path id="secondary" d="M10.206 14l4-4" class="cls-2" transform="translate(2503.294 1723.5)"/>
+        <path id="secondary-2" d="M14.206 14l-4-4" class="cls-2" transform="translate(2503.294 1723.5)"/>
+    </g>
+    <circle id="primary" cx="6.5" cy="6.5" r="6.5" fill="none" stroke="#652d90" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px" transform="translate(3.5 3.5)"/>
+</svg>

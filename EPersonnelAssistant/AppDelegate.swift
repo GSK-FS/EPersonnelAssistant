@@ -17,13 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
-        
-        let firstController = ViewController()
+//        let token = UserDefaults.standard.object(forKey: "alreadyLoggedIn")
+//            if token == nil {
+//                
+//                //LoginViewController and make it the rootViewController
+//                
+//            }
+        let firstController = LoginViewController()
         let withNavFirstController = UINavigationController(rootViewController: firstController)
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        window?.rootViewController = withNavFirstController
+        window?.rootViewController = BottomMenuTabBar()//withNavFirstController//
         
         
         return true

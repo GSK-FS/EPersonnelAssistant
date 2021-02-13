@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="home_24_icon" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-3{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="Group_127">
+        <path id="Path_2111" fill="none" d="M0 0h24v24H0z"/>
+        <path id="Path_2112" d="M4.984 12.21H3L11.93 3l8.93 9.21h-1.984" class="cls-3" transform="translate(.07 .07)"/>
+        <path id="Path_2113" d="M5 12v7.163a2.008 2.008 0 0 0 1.967 2.047H16.8a2.008 2.008 0 0 0 1.967-2.047V12" class="cls-3" transform="translate(.117 -.28)"/>
+        <path id="Path_2114" d="M9 21.186v-6.14A2.047 2.047 0 0 1 11.047 13h2.047a2.047 2.047 0 0 1 2.047 2.047v6.14" class="cls-3" transform="translate(-.07 -.256)"/>
+    </g>
+</svg>

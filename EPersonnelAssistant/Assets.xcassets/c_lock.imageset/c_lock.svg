@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="CLock" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px}
+        </style>
+    </defs>
+    <path id="Path_6061" fill="none" d="M0 0h32v32H0z"/>
+    <circle id="Ellipse_73" cx="12" cy="12" r="12" class="cls-2" transform="translate(4 4)"/>
+    <path id="Path_6062" d="M12 7v6.875L16.125 18" class="cls-2" transform="translate(3.929 2.188)"/>
+</svg>

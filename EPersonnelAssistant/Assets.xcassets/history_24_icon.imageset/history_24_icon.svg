@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="history_24_icon" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-3{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="Group_128">
+        <path id="Path_2115" fill="none" d="M0 0h24v24H0z"/>
+        <path id="Path_2116" d="M12 8v4l2 2" class="cls-3"/>
+        <path id="Path_2117" d="M3.05 11a9 9 0 1 1 .5 4m-.5 5v-5h5" class="cls-3"/>
+    </g>
+</svg>

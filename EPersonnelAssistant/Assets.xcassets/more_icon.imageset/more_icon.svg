@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="more_icon" width="5" height="20" viewBox="0 0 5 20">
+    <defs>
+        <style>
+            .cls-1{fill:#3b3652}
+        </style>
+    </defs>
+    <g id="Group_157">
+        <g id="Group_156">
+            <ellipse id="Ellipse_49" cx="2.5" cy="2.529" class="cls-1" rx="2.5" ry="2.529"/>
+        </g>
+    </g>
+    <g id="Group_159" transform="translate(0 7.471)">
+        <g id="Group_158">
+            <ellipse id="Ellipse_50" cx="2.5" cy="2.529" class="cls-1" rx="2.5" ry="2.529"/>
+        </g>
+    </g>
+    <g id="Group_161" transform="translate(0 14.942)">
+        <g id="Group_160">
+            <ellipse id="Ellipse_51" cx="2.5" cy="2.529" class="cls-1" rx="2.5" ry="2.529"/>
+        </g>
+    </g>
+</svg>
